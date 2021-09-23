@@ -1,3 +1,35 @@
-body {
-    font-size: 50pt;
+.navbar{
+  background-color: black;
+  border-radius: 30px
+}
+.navbar li{
+         float: left;
+         list-style: none;
+         margin: 13px;
+         
+}
+.navbar ul{
+  overflow: auto;
+  color:white;
+  
+}
+.navbar li a{
+  color: white;
+  padding:4px 4px;
+ font-size: 20pt;
+ text-decoration: none;
+}
+.search{
+  float:right;
+  padding: 14px 75px;
+}
+.navbar input{
+  border:2px solid black;
+  border-radius: 12px;
+  padding:3px 18px;
+  width: 190px;
+}
+.navbar li a:hover{
+  background-color: red;
+
 }
